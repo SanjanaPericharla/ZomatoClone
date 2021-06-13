@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel = "stylesheet" href = "css/signup.css">
+    <script type = "text/javascript">
+        function validate(){ 
+        var username = document.getElementById("uname");
+        var Email = document.getElementById("email");
+        var password = document.getElementById("pass");
+        if(username.value.trim() = ""){
+            alert("Enter username");
+            return false;
+        }
+        else if(Email.value.trim() = ""){
+            alert("Enter Email");
+            return false;
+        }
+        else if(password.value.trim() = ""){
+            alert("Enter password");
+            return false;
+        }
+        else if(password.value.trim().length < 5){
+            alert("Password id not strong");
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+        
+    </script>
+
+</head>
+<body>
+    <h1 class = "text1">CREATE AN ACCOUNT</h1>
+    <form onsubmit = "return validate()" action = "Login.html">
+        <input id = "uname" placeholder = "username" type = "text" class = "username"/><br><br>
+        <input id = "email" placeholder = "Email" type = "text" class = "email"/><br><br>
+        <input id = "pass" placeholder = "Password" type = "password"class = "password"/><br><br>
+        <button type = "submit" class = "button">Create an account</button>
+        <h5 class = "text2">Already have an account?</h5>
+        <a href = "Login.html" class = "link1">Login</a>
+
+    </form>
+</body>
+</html>

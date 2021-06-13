@@ -1,0 +1,57 @@
+.username{
+    margin-left: 600px;
+    margin-top : 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size : 18px;
+}
+.password{
+    margin-left: 600px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size : 18px;
+}
+.button{
+    margin-left: 600px;
+}
+.head{
+    margin-left: 50px;
+    position: relative;
+    top : 150px;
+    left : 550px;
+}
+@media only screen and (max-width : 600px){
+    .username{
+        margin-left: 100px;
+        margin-top : 250px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size : 18px;
+    }
+    .password{
+        margin-left: 100px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size : 18px;
+    }
+    .button{
+        margin-left: 100px;
+    }
+    .head{
+        margin-left: 10px;
+        position: relative;
+        top : 200px;
+        left : 100px;
+    }
+}
+
+
+

@@ -1,0 +1,319 @@
+.heading{
+    color: #192f60;
+}
+.filteroptions{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    width : 30%;
+    height : 600px;
+    margin-left : 10px;
+}
+.filter-heading{
+    color: #192f60;
+    margin-left: 20px;
+    position: relative;
+    font-size: 20px;
+    top : 30px;
+}
+.Select-Location{
+    position: relative;
+    font-size: 15px;
+    top : 40px;
+    margin-left: 20px;
+}
+.locationDropdown{
+    position: relative;
+    font-size: 15px;
+    top : 50px;
+    margin-left: 20px;
+    width : 40%;
+}
+.cuisine{
+    position: relative;
+    margin-left: 20px;
+    color: #192f60;
+    top : 70px;
+    font-size: 18px;
+}
+.checkbox{
+    position: relative;
+    top : 80px;
+    margin-left: 20px;
+
+}
+.checkbox-text{
+    position: relative;
+    top : 60px;
+    margin-left: 40px;
+}
+.checkbox2{
+    position: relative;
+    top : 70px;
+    margin-left: 20px;
+}
+.checkbox-text2{
+    position: relative;
+    top : 50px;
+    margin-left: 40px;
+}
+.checkbox3{
+    position: relative;
+    top : 60px;
+    margin-left: 20px;
+}
+.checkbox-text3{
+    position: relative;
+    top : 40px;
+    margin-left: 40px;
+}
+.checkbox4{
+    position: relative;
+    top : 50px;
+    margin-left: 20px;
+}
+.checkbox-text4{
+    position: relative;
+    top : 30px;
+    margin-left: 40px;
+}
+.checkbox5{
+    position: relative;
+    top : 40px;
+    margin-left: 20px;
+}
+.checkbox-text5{
+    position: relative;
+    top : 20px;
+    margin-left: 40px;
+}
+.CostForTwo{
+    position: relative;
+    top : 40px;
+    margin-left: 20px;
+    color: #192f60;
+    font-size: 18px;
+}
+.radio1{
+    position: relative;
+    top : 50px;
+    margin-left: 20px;
+}
+.radio-text1{
+    position: relative;
+    top : 25px;
+    margin-left: 40px;
+}
+.radio2{
+    position: relative;
+    top : 30px;
+    margin-left: 20px;
+}
+.radio-text2{
+    position: relative;
+    top : 10px;
+    margin-left: 40px;
+}
+.radio3{
+    position: relative;
+    top : 20px;
+    margin-left: 20px;
+}
+.radio-text3{
+    position: relative;
+    top : -5px;
+    margin-left: 40px;
+}
+.radio4{
+    position: relative;
+    top : 5px;
+    margin-left: 20px;
+}
+.radio-text4{
+    position: relative;
+    top : -15px;
+    margin-left: 40px;
+}
+.radio5{
+    position: relative;
+    top : -5px;
+    margin-left: 20px;
+}
+.radio-text5{
+    position: relative;
+    top : -25px;
+    margin-left: 40px;
+}
+.sort{
+    position: relative;
+    bottom : 10px;
+    margin-left: 20px;
+    color: #192f60;
+    font-size: 18px;
+}
+.radio6{
+    position: relative;
+    top : 10px;
+    margin-left: 20px;
+}
+.radio-text6{
+    position: relative;
+    top : -10px;
+    margin-left: 40px;
+}
+.radio7{
+    position: relative;
+    top : 10px;
+    margin-left: 20px;
+}
+.radio-text7{
+    position: relative;
+    top : -10px;
+    margin-left: 40px;
+}
+.block1{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    width : 700px;
+    height : 250px;
+    margin-left : 10px;
+    position: relative;
+    left : 500px;
+    bottom : 600px;
+    margin-bottom: 10px;
+}
+.img1{
+    width : 20%;
+    height : 30%;
+    position: relative;
+    top : 40px;
+    left : 40px;
+    border-radius: 20px;
+}
+.subheading{
+    position: relative;
+    left : 250px;
+    bottom : 70px;
+    color: #192f60;
+
+}
+.subheading2{
+    position: relative;
+    left : 250px;
+    bottom : 80px;
+    color: #636f88;
+    font-size: 18px;
+}
+.address{
+    position: relative;
+    left : 250px;
+    bottom : 90px;
+    color: #636f88;
+    font-size: 18px;
+}
+.line{
+   color: #636f88;
+   position: relative;
+   bottom : 100px;
+}
+.text5{
+    position : relative;
+    bottom : 100px;
+    color: #636f88;
+    left : 20px;
+    font-size: 20px;
+
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: gray;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 2px;
+    position: relative;
+    bottom : 550px;
+    left : 700px;
+    float : left ;
+    
+}
+.body{
+    overflow: hidden;
+}
+
+  @media only screen and (max-width: 600px){
+    .filteroptions{
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        width : 80%;
+        height : 700px;
+        position: relative;
+        left : 20px;
+    }
+    .block1{
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        width : 450px;
+        height : 200px;
+        margin-left : -60px;
+        position: relative;
+        left : 50px;
+        bottom : -150px;
+        margin-bottom: 0px;
+    }
+    .subheading{
+        position: relative;
+        left : 150px;
+        bottom : 70px;
+        color: #192f60;
+        font-size: 18px;
+        bottom : 50px;
+    
+    }
+    .subheading2{
+        position: relative;
+        left : 170px;
+        bottom : 70px;
+        color: #636f88;
+        font-size: 15px;
+    }
+    .address{
+        position: relative;
+        left : 170px;
+        bottom : 90px;
+        color: #636f88;
+        font-size: 10px;
+    }
+    .line{
+        color: #636f88;
+        position: relative;
+        bottom : 70px;
+     }
+     .text5{
+        position : relative;
+        bottom : 70px;
+        color: #636f88;
+        left : 20px;
+        font-size: 15px;
+    
+    }
+    .pagination a {
+        color: gray;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: solid 1px gray;
+        border-radius: 15px;
+        margin: 2px;
+        position: relative;
+        left : 20px;
+        bottom : -180px;
+        float: left;
+        
+        
+    }
+  }
+
+
+
+
+
+
